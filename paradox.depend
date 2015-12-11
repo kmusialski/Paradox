@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1449472606 source:c:\users\kmusialski\downloads\cpp\proba\fibbo.cpp
+	"Fibbo.h"
+
+1449472606 c:\users\kmusialski\downloads\cpp\proba\fibbo.h
+	"iostream"
+	<math.h>
+
+1449839431 source:c:\users\kmusialski\downloads\cpp\proba\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdlib>
+	"Fibbo.h"
+
