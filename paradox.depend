@@ -13,3 +13,14 @@
 	<cstdlib>
 	"Fibbo.h"
 
+1450097429 source:c:\users\kmusialski\downloads\cpp\paradox\source files\drawing.cpp
+	"Draw.h"
+
+1450096991 c:\users\kmusialski\downloads\cpp\paradox\source files\draw.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1450097382 source:c:\users\kmusialski\downloads\cpp\paradox\source files\main.cpp
+	"Draw.h"
+

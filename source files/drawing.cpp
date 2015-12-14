@@ -1,6 +1,5 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
+
+#include "Draw.h"
 
 bool czyBylaWylosowana( int iLiczba, int tab[], int ile )
 {
@@ -21,13 +20,13 @@ bool czyBylaWylosowana( int iLiczba, int tab[], int ile )
 
 int wylosuj()
 {
-    return( rand() % 10 ) + 1;
+    return( rand() % 365 ) + 1;
 }
 
-int main()
+int DRAW::cinInt()
 {
     srand( time( 0 ) );
-    int wylosowane[ 5 ];
+    int wylosowane[ 25 ];
     int wylosowanych = 0;
     do
     {
@@ -37,14 +36,14 @@ int main()
             wylosowane[ wylosowanych ] = liczba;
             wylosowanych++;
         } //if
-    } while( wylosowanych < 5 );
+    } while( wylosowanych < 25 );
 
     wylosowanych = 0;
     do
     {
         std::cout << wylosowane[ wylosowanych ] << std::endl;
         wylosowanych++;
-    } while( wylosowanych < 5 );
+    } while( wylosowanych < 25 );
 
     return 0;
 }

@@ -31,7 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="../proba/main.cpp" />
+		<Unit filename="source files/draw.h" />
+		<Unit filename="source files/drawing.cpp" />
+		<Unit filename="source files/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
