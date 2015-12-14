@@ -1,49 +1,66 @@
-
 #include "Draw.h"
 
-bool czyBylaWylosowana( int iLiczba, int tab[], int ile )
+
+
+int czyBylaWylosowana( int iLiczba, int tab[], int ile,int counter )
 {
-    if( ile <= 0 )
-         return false;
+    if( ile <= 0 ) // ile liczb do losowania, jezeli sie skoncza to false
+        return counter;
 
     int i = 0;
+
     do
     {
-        if( tab[ i ] == iLiczba )
-             return true;
+        if( tab[ i ] == iLiczba ){
+            counter = counter +1;
+        }
 
         i++;
     } while( i < ile );
 
-    return false;
+    return counter;
+
 }
 
 int wylosuj()
 {
-    return( rand() % 365 ) + 1;
+    return( rand() % 10 ) + 1;
 }
 
 int DRAW::cinInt()
 {
-    srand( time( 0 ) );
-    int wylosowane[ 25 ];
+    srand( time( NULL ) );
+    int iter();
+    int counter = 0;
+    for (int i =0; i < 3; i++){
+
+    int wylosowane[ 5 ];
     int wylosowanych = 0;
+
     do
     {
         int liczba = wylosuj();
-        if( czyBylaWylosowana( liczba, wylosowane, wylosowanych ) == false )
-        {
+        czyBylaWylosowana( liczba, wylosowane, wylosowanych,counter ) ;
+
             wylosowane[ wylosowanych ] = liczba;
             wylosowanych++;
-        } //if
-    } while( wylosowanych < 25 );
+
+    } while( wylosowanych < 5 );
 
     wylosowanych = 0;
-    do
-    {
-        std::cout << wylosowane[ wylosowanych ] << std::endl;
-        wylosowanych++;
-    } while( wylosowanych < 25 );
+   do
+   {
+      cout << wylosowane[ wylosowanych ]<<" ";
+       wylosowanych++;
+   } while( wylosowanych < 5 );
 
+    cout<<endl;
+   cout<<"ilosc powtorzen"<<endl;
+    cout<<counter<<endl;
+    counter = 0;
+    }
     return 0;
-}
+    }
+
+
+

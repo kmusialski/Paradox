@@ -24,3 +24,14 @@
 1450097382 source:c:\users\kmusialski\downloads\cpp\paradox\source files\main.cpp
 	"Draw.h"
 
+1450122721 source:d:\filmy\projekty c++\paradox\source files\drawing.cpp
+	"Draw.h"
+
+1450114388 d:\filmy\projekty c++\paradox\source files\draw.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1450114395 source:d:\filmy\projekty c++\paradox\source files\main.cpp
+	"Draw.h"
+
