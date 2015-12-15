@@ -1,37 +1,23 @@
 # depslib dependency file v1.0
-1449472606 source:c:\users\kmusialski\downloads\cpp\proba\fibbo.cpp
-	"Fibbo.h"
+1450186556 source:c:\users\kmusialski\downloads\cpp\paradox1\source files\drawning.cpp
+	"Drawning.h"
 
-1449472606 c:\users\kmusialski\downloads\cpp\proba\fibbo.h
-	"iostream"
-	<math.h>
-
-1449839431 source:c:\users\kmusialski\downloads\cpp\proba\main.cpp
-	<iostream>
-	<cstdlib>
-	<ctime>
-	<cstdlib>
-	"Fibbo.h"
-
-1450097429 source:c:\users\kmusialski\downloads\cpp\paradox\source files\drawing.cpp
-	"Draw.h"
-
-1450096991 c:\users\kmusialski\downloads\cpp\paradox\source files\draw.h
+1450185984 c:\users\kmusialski\downloads\cpp\paradox1\source files\drawning.h
 	<iostream>
 	<cstdlib>
 	<ctime>
 
-1450097382 source:c:\users\kmusialski\downloads\cpp\paradox\source files\main.cpp
-	"Draw.h"
+1450166766 source:c:\users\kmusialski\downloads\cpp\paradox1\source files\main.cpp
+	"Drawning.h"
 
-1450122721 source:d:\filmy\projekty c++\paradox\source files\drawing.cpp
-	"Draw.h"
+1450166766 source:c:\users\kmusialski\downloads\cpp\paradox\source files\main.cpp
+	"Drawning.h"
 
-1450114388 d:\filmy\projekty c++\paradox\source files\draw.h
+1450185984 c:\users\kmusialski\downloads\cpp\paradox\source files\drawning.h
 	<iostream>
 	<cstdlib>
 	<ctime>
 
-1450114395 source:d:\filmy\projekty c++\paradox\source files\main.cpp
-	"Draw.h"
+1450187691 source:c:\users\kmusialski\downloads\cpp\paradox\source files\drawning.cpp
+	"Drawning.h"
 

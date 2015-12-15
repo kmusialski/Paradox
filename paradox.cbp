@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/paradox" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/paradox1" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/paradox" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/paradox1" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,8 +31,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="source files/draw.h" />
-		<Unit filename="source files/drawing.cpp" />
+		<Unit filename="source files/drawning.cpp" />
+		<Unit filename="source files/drawning.h" />
 		<Unit filename="source files/main.cpp" />
 		<Extensions>
 			<code_completion />

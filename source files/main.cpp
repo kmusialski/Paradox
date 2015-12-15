@@ -1,15 +1,15 @@
-#include "Draw.h"
+#include "Drawning.h"
 
 DRAW createDRAW();
 //using namespace std;
 
 int main()
 {
-DRAW utilis = createDRAW();
+createDRAW();
 }
+
 
 DRAW createDRAW(){
 	DRAW draw;
     draw.cinInt();
-
 }
