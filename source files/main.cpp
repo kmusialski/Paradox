@@ -1,7 +1,8 @@
 #include "Drawning.h"
 
+// Program generuje parados urodzin
+
 DRAW createDRAW();
-//using namespace std;
 
 int main()
 {
